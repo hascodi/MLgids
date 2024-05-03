@@ -1,5 +1,5 @@
 # Labo Gids ML Principles
-### Hassan Haddouchi 
+#### Author: Hassan Haddouchi 
 
 Welkom bij de Labo Gids voor ML Principles. Deze gids is ontworpen om jullie te begeleiden bij het uitvoeren van de labo-opdrachten en om jullie te helpen bij het ontwikkelen van de vaardigheden die nodig zijn voor dit opleidingsonderdeel. 
 
@@ -23,7 +23,7 @@ Met deze gids hebben jullie een handig hulpmiddel om jullie te begeleiden tijden
     - `Os` (optioneel): om je huidige werkfolder (working directory) op te vragen.
     - Jupyter Notebook (optioneel): voor interactieve ontwikkeling.
 
-Merk op dat de bibliotheken die je zal en kan gebruiken zich niet beperken tot de lijst hierboven. Naargelang de operatie die je wil uitvoeren, kan je steeds een extra bibliotheek importeren. 
+Merk op dat de bibliotheken die je zal en kan gebruiken zich niet beperken tot de lijst hierboven. Naargelang de operatie die je wil uitvoeren, kan het zijn dat je een extra bibliotheek zal moeten importeren. 
 <div style="page-break-after: always"></div>
 
 Zo importeer je in Python een bibliotheek:
