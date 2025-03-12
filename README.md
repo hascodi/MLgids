@@ -1,5 +1,9 @@
+[//]: # (Open preview: Ctrl+Shift+V)
+[//]: # (Open Preview to the Side: Ctrl+K V)
+[//]: # (To HTML: Open md file, press F1 or Ctrl+Shift+P, Type export and select)
+
 # Labo Gids ML Principles
-#### Author: Hassan Haddouchi 
+### Author: Hassan Haddouchi 
 
 Welkom bij de Labo Gids voor ML Principles. Deze gids is ontworpen om jullie te begeleiden bij het uitvoeren van de labo-opdrachten en om jullie te helpen bij het ontwikkelen van de vaardigheden die nodig zijn voor dit opleidingsonderdeel. 
 
@@ -23,7 +27,7 @@ Met deze gids hebben jullie een handig hulpmiddel om jullie te begeleiden tijden
     - `Os` (optioneel): om je huidige werkfolder (working directory) op te vragen.
     - Jupyter Notebook (optioneel): voor interactieve ontwikkeling.
 
-Merk op dat de bibliotheken die je zal en kan gebruiken zich niet beperken tot de lijst hierboven. Naargelang de operatie die je wil uitvoeren, kan het zijn dat je een extra bibliotheek zal moeten importeren. 
+Merk op dat de bibliotheken die je zal en kan gebruiken zich niet beperken tot de lijst hierboven. Naargelang de operatie die je wil uitvoeren, kan je steeds een extra bibliotheek importeren. 
 <div style="page-break-after: always"></div>
 
 Zo importeer je in Python een bibliotheek:
@@ -288,3 +292,42 @@ Maak efficiënt gebruik van de resources die ik biedt, zoals deze gids en modelo
 
 **Vergeet jullie portfolio niet!**
 Documenteer beknopt in uw portfolio hoe je uw opdracht hebt uitgevoerd en wat de belangrijkste inzichten zijn uit de theorieles.
+
+## Enkele begrippen
+
+Hieronder staan enkele begrippen uit de cursus. Merk op dat de begrippen die we leren zich niet enkel beperken tot onderstaande benamingen. De cursus bevat nog veel meer begrippen waarvan wordt verwacht dat studenten deze beheersen.
+
+**Standaarddeviatie**
+De standaarddeviatie is een maatstaf voor de spreiding van data rond het gemiddelde. Hoe groter de standaarddeviatie, hoe meer variatie er is in de dataset.
+
+*Voorbeeld*
+
+Stel dat je werkt met de woningprijzen in Boston (medv-kolom). Als de standaarddeviatie hoog is, betekent dit dat de prijzen sterk uiteenlopen, met zowel goedkope als zeer dure woningen. Als de standaarddeviatie laag is, zijn de prijzen relatief dicht bij elkaar gegroepeerd. Dit helpt bij het inschatten van hoe "gevarieerd" de data zijn.
+
+**Mediaan**
+De mediaan is de middelste waarde van een gesorteerde dataset. Het verdeelt de dataset in twee gelijke helften.
+
+*Voorbeeld*
+
+Als je de inkomens van huishoudens of gasprijzen per jaar analyseert, kan de mediaan een betere maatstaf zijn dan het gemiddelde. Dit komt doordat de mediaan minder gevoelig is voor extreme waarden (outliers). Als er bijvoorbeeld een paar extreem dure woningen in de dataset zitten, kan het gemiddelde misleidend zijn, terwijl de mediaan een beter beeld geeft van een "typisch" huis.
+
+**Correlatiecoëfficiënt**
+De correlatiecoëfficiënt meet de sterkte en richting van een lineaire relatie tussen twee variabelen. De waarde ligt tussen -1 en 1:
+
+1 betekent een perfecte positieve correlatie (als de ene variabele stijgt, stijgt de andere ook).
+0 betekent geen correlatie (de variabelen hebben geen verband).
+-1 betekent een perfecte negatieve correlatie (als de ene variabele stijgt, daalt de andere).
+
+*Voorbeeld*
+
+In de Boston-huizenprijsdataset kunnen we bijvoorbeeld de correlatie bekijken tussen het aantal kamers (rm) en de huizenprijs (medv). Als de correlatiecoëfficiënt positief en hoog is, betekent dit dat huizen met meer kamers over het algemeen duurder zijn.
+Als je kijkt naar ‘lstat’ (percentage lage inkomens) en ‘medv’ (woningprijzen), zal de correlatie waarschijnlijk negatief zijn: een hogere armoedegraad is vaak geassocieerd met lagere woningprijzen.
+
+**Modus**
+De modus is de meest voorkomende waarde in een dataset.
+
+*Voorbeeld*
+Als je kijkt naar de indeling van woningen in categorieën (bijvoorbeeld hoeveel huizen zich in een bepaalde prijsklasse bevinden), kan de modus aangeven welke prijsklasse het vaakst voorkomt. Dit kan handig zijn bij categorische data, bijvoorbeeld de meest voorkomende belastingklasse in een dataset met economische gegevens.
+
+
+
