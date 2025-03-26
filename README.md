@@ -330,4 +330,25 @@ De modus is de meest voorkomende waarde in een dataset.
 Als je kijkt naar de indeling van woningen in categorieën (bijvoorbeeld hoeveel huizen zich in een bepaalde prijsklasse bevinden), kan de modus aangeven welke prijsklasse het vaakst voorkomt. Dit kan handig zijn bij categorische data, bijvoorbeeld de meest voorkomende belastingklasse in een dataset met economische gegevens.
 
 
+#### Minimum, mediaan, modus en maximum waarden in een dataset
 
+Als je in één tabel de minimum, mediaan, modus en maximum waarden voor elke variabele in een dataset wil weergeven, dan doe je dat bijvoorbeeld zo:
+
+```python
+import pandas as pd
+
+print(df.describe())
+```
+
+Een iets omslachtigere manier staat hieronder:
+
+```python
+summary = pd.DataFrame()
+summary['min'] = df.min()
+summary['median'] = df.median()
+summary['max'] = df.max()
+summary['mode'] = df.mode().iloc[0]
+print(summary)
+```
+
+Merk op dat dit uiteraard enkel zal werken bij numerieke data. Als je een foutmelding krijgt omdat je data niet numeriek is, dan dien je eerst te controleren welke variabelen numeriek zijn. Vervolgens kan je overwegen om kolommen om te zetten naar getallen: `pd.to_numeric(..., errors='coerce')`. Doe dit enkel als je zeker weet wat je aan het doen bent.
