@@ -52,7 +52,7 @@ data = pd.read_csv('dataset.csv')
 - sklearn.datasets: de scikit-learn-bibliotheek biedt een ingebouwde verzameling van kleine standaarddatasets die handig zijn voor het oefenen en experimenteren met machine learning-algoritmen. Deze datasets kunnen direct worden geladen met behulp van functies zoals `load_boston`, `load_iris`, `load_digits`, `load_wine`, enzovoort.
 
 Zo kan je de Iris dataset in Sklearn inladen:
-```{python}
+```python
 from sklearn.datasets import load_iris
 
 iris = load_iris()
