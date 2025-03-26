@@ -32,7 +32,7 @@ Merk op dat de bibliotheken die je zal en kan gebruiken zich niet beperken tot d
 
 Zo importeer je in Python een bibliotheek:
 
-```{python}
+```python
 import pandas as pd
 ```
 
@@ -43,7 +43,7 @@ Voor het uitvoeren van experimenten en analyses met machine learning-modellen zi
 - Externe datasets: datasets kunnen worden verkregen van externe bronnen zoals online repositories, openbare databases en dataverzamelingsplatforms. Deze datasets kunnen in verschillende formaten zijn, zoals CSV, Excel, JSON, SQL, enzovoort. Om deze datasets in te laden, kunnen bibliotheken zoals Pandas worden gebruikt voor het lezen en manipuleren van gestructureerde gegevens, terwijl bibliotheken zoals NumPy kunnen worden gebruikt voor het verwerken van numerieke gegevens.
 
 Zo kan je een externe dataset inladen:
-```{python}
+```python
 import pandas as pd
 
 data = pd.read_csv('dataset.csv')
@@ -73,7 +73,7 @@ Deze functie wordt gebruikt om een CSV-bestand in te lezen als een DataFrame in 
 Library: pandas
 
 Voorbeeld:
-```{python}
+```python
 import pandas as pd
 
 # Lees een CSV-bestand in als een DataFrame
@@ -86,7 +86,7 @@ Deze functie wordt gebruikt om de dataset op te splitsen in een trainingsset en 
 Library: `scikit-learn`
 
 Voorbeeld:
-```{python}
+```python
 from sklearn.model_selection import train_test_split
 
 # Split de dataset in trainings- en testset met de 80-20 regel
@@ -99,7 +99,7 @@ Een pipeline wordt gebruikt om een reeks gegevensverwerkingsstappen te definiër
 Library: `scikit-learn`
 
 Voorbeeld:
-```{python}
+```python
 from sklearn.pipeline import Pipeline
 
 # Definieer een pipeline met gegevensverwerkingsstappen en een model
@@ -116,7 +116,7 @@ Deze functie wordt gebruikt om ontbrekende waarden in de dataset te imputeren do
 Library: `scikit-learn`
 
 Voorbeeld:
-```{python}
+```python
 from sklearn.impute import SimpleImputer
 
 # Maak een imputer object aan en specificeer de strategie voor het imputeren van ontbrekende waarden (in de geval de mediaan van de kolom)
@@ -129,7 +129,7 @@ Dit is een machine learning-algoritme dat wordt gebruikt voor lineaire regressie
 Library: `scikit-learn`
 
 Voorbeeld:
-```{python}
+```python
 from sklearn.linear_model import LinearRegression
 
 # Maak een lineaire regressie model object aan
@@ -142,7 +142,7 @@ Deze functie wordt gebruikt om de mean squared error (MSE) te berekenen, een maa
 Library: `scikit-learn`
 
 Voorbeeld:
-```{python}
+```python
 from sklearn.metrics import mean_squared_error
 
 # Bereken de mean squared error tussen de voorspelde waarden en de echte waarden
@@ -157,7 +157,7 @@ Libraries: `tensorflow`, `keras`
 <div style="page-break-after: always"></div>
 
 Voorbeeld:
-```{python}
+```python
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
@@ -180,7 +180,7 @@ Deze functie wordt gebruikt voor het schalen van features door het verwijderen v
 Library: `scikit-learn`
 
 Voorbeeld:
-```{python}
+```python
 from sklearn.preprocessing import StandardScaler
 
 # Maak een scaler object aan en schaal de features
@@ -258,7 +258,7 @@ In termen van opbouw van het model, kun je Sequential gebruiken om een reeks lag
 
 Hier is een voorbeeld van hoe je een eenvoudig Sequential-model kunt maken in Keras:
 
-```{python}
+```python
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
